@@ -1,0 +1,58 @@
+/**
+ * CSS VARIABLES (CUSTOM PROPERTIES)
+ * 
+ * This file contains all the design tokens for the portfolio.
+ * 🎨 Change these values to customize colors, fonts, spacing, etc.
+ */
+
+:root {
+  /* ==========================================
+     COLOR PALETTE - Change to match your brand
+     ========================================== */
+  
+  /* Primary colors */
+  --primary-color: #2563eb;        /* Main blue color */
+  --primary-dark: #1e40af;         /* Darker blue */
+  --primary-light: #60a5fa;        /* Lighter blue */
+  
+  /* Text colors */
+  --text-primary: #1f2937;         /* Dark gray for main text */
+  --text-secondary: #6b7280;       /* Medium gray for secondary text */
+  --text-white: #ffffff;           /* White text */
+  
+  /* Background colors */
+  --bg-white: #ffffff;             /* Pure white background */
+  --bg-light: #f9fafb;             /* Light gray background */
+  --bg-dark: #1f2937;              /* Dark background */
+  
+  /* Border colors */
+  --border-color: #e5e7eb;         /* Light border */
+  
+  /* ==========================================
+     TYPOGRAPHY
+     ========================================== */
+  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  /* ==========================================
+     LAYOUT
+     ========================================== */
+  --container-max-width: 1200px;   /* Maximum width for content */
+  --section-padding: 5rem 0;       /* Padding for sections */
+  
+  /* ==========================================
+     BORDERS & RADIUS
+     ========================================== */
+  --radius-md: 0.5rem;             /* 8px */
+  --radius-lg: 0.75rem;            /* 12px */
+  
+  /* ==========================================
+     SHADOWS
+     ========================================== */
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  
+  /* ==========================================
+     TRANSITIONS
+     ========================================== */
+  --transition-base: 300ms ease-in-out;
+}
